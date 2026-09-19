@@ -1,1 +1,1 @@
-# python_fall_2026
+# python-fall-2026
