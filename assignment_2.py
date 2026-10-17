@@ -28,8 +28,9 @@ print(type(stdSkills))
 
 #4
 # PREDICTION: I predict that stdSkills will print 3 items, because there are three items in the dictionary.
-# print(stdSkills) This line was used to test if my prediction was right or not
-# My prediction was wrong because I didn't know that stdSkills was actually a set and that sets also used {}.
+# print(stdSkills) This line was used to test if my prediction was correct.
+# My prediction was incorrect because I didn't realize that stdSkills was actually a set and forgot that sets also used {}.
+# I might've predicted otherwise if I had run the print statements from #1-#3 before making a prediction.
 
 #5
 x = 5j
@@ -47,7 +48,7 @@ print(type(stdMidterm))
 
 #8
 # PREDICTION: I predict that print(int(stdFinal)) will show 98. It will not round up because int truncates the decimal point and any values after it.
-# print(int(stdFinal)) This line was used to test my prediction was right, and it was!
+# print(int(stdFinal)) This line was used to test if my prediction was correct, and it was!
 
 #9
 stdCode = str(stdCode)
@@ -72,20 +73,20 @@ print(type(msg))
 #                   {'a': 10} -> dict
 #                   True -> bool
 # print(type(10), type(10.0), type("10"), type([10]), type((10,)), type({10}), type({'a': 10}), type(True))
-# The line abpve was used to test if my prediction was correct, and it was!
+# The print line above was used to test if my prediction was correct, and it was!
 
 #13
 # PREDICTION: I predict that the data type of stdMidterm + stdFinal will be a float, assuming that the change of stdMidterm into a float value from #7 is kept.
 #             I think the data type of stdMidterm +stdFinal would still be a float even if stdMidterm's original type (int) were kept.
 # print(type(stdMidterm + stdFinal))
 # print(type(int(stdMidterm) + stdFinal))
-# The lines above were used to test if my prediction was correct and it was!
+# The print lines above were used to test if my prediction was correct, and it was!
 
 #14
 # PREDICTION: I predict that the data type of stdMidterm / 2 would be a float regardless of whether the change of stdMidterm's type in #7 was applied or not.
 # print(type(stdMidterm/2))
 # print(type(int(stdMidterm)/2))
-# The lines above were used to test if my prediction was correct and it was!
+# The print lines above were used to test if my prediction was correct, and it was!
 
 #15
 print(type((10,)))
