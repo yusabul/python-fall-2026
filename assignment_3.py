@@ -23,7 +23,8 @@ print(type(c))
 # PREDICTION: The type of x = 35e3 is complex. print(x) will show 35e3.
 # x = 35e3
 # print(x)
-# Lines above were used to test my prediction. I was wrong; the output was 35000.0 which is 35 * 10^3 where e is "10 to the power of."
+# lines above were used to test my prediction
+# My prediction was incorrect. x is actually a float; the output was 35000.0 which is 35 * 10^3, where e is "10 to the power of."
 
 # 3
 print(random.randrange(1, 11))
@@ -40,15 +41,20 @@ print(stdMidterm)
                 # print(int(9.99)) -> 9
                 # print(float(7)) -> 7.0
                 # print(str(3.0)) -> "3.0"
+# print(int(9.99))
+# print(float(7))
+# print(str(3.0))
+# lines above were used to test my prediction; my predicton was correct.
+# Note: I used quotation marks indicate that 3.0 was converted to a str, but print() removes them.
 
 # 6
 print("Student code: " + str(stdCode))
 
 # 7
 # PREDICTION: I predict that there will be a type error because print only accepts strings.
-            # I was wrong about the type of error but I had known that it was an error.
+            # The type of error I predicted was incorrect, but I had known that it was an error.
 # print(int("12.5")) line used to see print output
-print(int(12.5)) # correct line
+print(int(12.5)) # corrected line
 
 # PART C: STRINGS
 # 8
@@ -74,7 +80,7 @@ print(stdPhone.replace("-", " "))
 print(stdEmail.split("@"))
 # PREDICTION: I predict that split() will return arr as the data type.
 # print(type(stdEmail.split("@")))
-# The line above was used to test my prediction. My prediction was close; I used the wrong term. Rather than arr, the type would be list.
+# The line above was used to test my prediction. My prediction was close; I used the incorrect term. Rather than arr, the type would be list.
 
 # 14
 print(f"{stdName} {stdLastName} scored {stdFinal} on the final.")
@@ -92,7 +98,7 @@ print("school" in stdEmail)
 # PART D: BOOLEANS
 # 18
 # PREDICTION: The following is True or False for each:
-                # bool(0) -> True -incorrect; correct is False
+                # bool(0) -> True # incorrect; the correct output is False
                 # bool(15) -> True
                 # bool("") -> False
                 # bool("False") -> True
@@ -107,7 +113,7 @@ print(bool(None))
 
 # 19
 print(bool(stdComment))
-# line above outputs False because the comment is a null string. bool only accepts a non-null value.
+# Line above outputs False because stdComment is an empty string. bool returns False when the value is empty, null, or 0.
 
 # 20
 print(isinstance(stdFinal, float))
