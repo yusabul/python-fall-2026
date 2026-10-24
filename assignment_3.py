@@ -44,7 +44,7 @@ print(stdMidterm)
 # print(int(9.99))
 # print(float(7))
 # print(str(3.0))
-# lines above were used to test my prediction; my predicton was correct.
+# Lines above were used to test my prediction; my predicton was correct.
 # Note: I used quotation marks indicate that 3.0 was converted to a str, but print() removes them.
 
 # 6
@@ -80,7 +80,7 @@ print(stdPhone.replace("-", " "))
 print(stdEmail.split("@"))
 # PREDICTION: I predict that split() will return arr as the data type.
 # print(type(stdEmail.split("@")))
-# The line above was used to test my prediction. My prediction was close; I used the incorrect term. Rather than arr, the type would be list.
+# Line above was used to test my prediction. My prediction was close; I used the incorrect term. Rather than arr, the type would be list.
 
 # 14
 print(f"{stdName} {stdLastName} scored {stdFinal} on the final.")
