@@ -7,7 +7,7 @@ new_score = input("Enter a new score: ")
 scores.append(int(new_score))
 
 # 2
-print(len(scores))
+print("Number of scores: " + str(len(scores)))
 
 # 3
 print("Highest score: " + str(max(scores)))
